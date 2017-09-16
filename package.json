@@ -1,0 +1,19 @@
+{
+  "name": "shawnkang",
+  "version": "1.0.0",
+  "description": "mocha",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.5.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {},
+  "author": "shawn",
+  "license": "ISC"
+}
