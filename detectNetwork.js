@@ -14,13 +14,18 @@ var detectNetwork = function(cardNumber) {
 
   // Once you've read this, go ahead and try to implement this function, then return to the console.
   var firstDigit = parseInt(cardNumber.slice(0, 1));
+
   var firstTwoDigits = parseInt(cardNumber.slice(0, 2));
+  
   var threeDigits = parseInt(cardNumber.slice(0, 3));
+  
   var fourDigits = parseInt(cardNumber.slice(0, 4));
+  
   var sixDigits = parseInt(cardNumber.slice(0, 6));
+  
   var cardLength = cardNumber.length;
 
-  
+
   if ( (firstTwoDigits === 38 || firstTwoDigits === 39) && cardLength === 14) {
     return 'Diner\'s Club';
   } else if ((firstTwoDigits === 34 || firstTwoDigits === 37) && cardLength === 15) {
